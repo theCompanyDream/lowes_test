@@ -4,13 +4,12 @@
 
 import { ContentMapping } from './content_mapping';
 import { Layout } from './layout';
-import { RequestParams } from './request.params';
+import { RequestParams } from './request_params';
 import { Breadcrumb } from './breadcrumb';
 import { Refinement } from './refinement';
 import { Product } from './product';
-import { MarketingZone } from './refinement';
+import { MarketingZone } from './marketing_zone';
 import { Link } from './link';
-import { Layout } from './layout';
 
 
 export class Payload{

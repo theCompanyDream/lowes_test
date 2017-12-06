@@ -1,4 +1,4 @@
-import { DesktopBanner } from './marketing_zones';
+import { DesktopBanner } from './desktop_banner';
 
 export class MarketingZone {
   DesktopBannerTop: DesktopBanner;
