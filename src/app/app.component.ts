@@ -10,7 +10,7 @@ import { Payload } from './service_objects/index';
 })
 export class AppComponent implements OnInit{
   title = 'app';
-  payload = Payload;
+  payload: Payload;
 
   constructor(
     private lowesProductService: LowesProductService
