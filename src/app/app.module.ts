@@ -6,10 +6,12 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppComponent } from './app.component';
 
 import { LowesProductService } from './lowes-product.service';
+import { ProductlistComponent } from './components/productlist/productlist.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ProductlistComponent
   ],
   imports: [
     BrowserModule,

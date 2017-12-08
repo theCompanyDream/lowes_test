@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Observable } from 'rxjs/Observable';
 
 import { LowesProductService } from './lowes-product.service';
 import { Payload } from './service_objects/index';
