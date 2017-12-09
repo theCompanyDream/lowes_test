@@ -1,7 +1,8 @@
-<h2>List of products</h2>
+<h2>Washing Machines</h2>
 <ul class= "products">
-
   <li *ngFor="let product of payload.productList">
-          {{product.networkPrice}}
+    <img src="{{product.imageUrls.md}}" />
+    <span>{{product.networkPrice}}</span>
+    <button>VIEW MORE</button>
   </li>
 </ul>

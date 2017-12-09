@@ -1,7 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 
 import { Payload } from '../../service_objects/index';
-import { Product } from '../../service_objects/product';
 import { LowesProductService } from '../../lowes-product.service';
 
 @Component({

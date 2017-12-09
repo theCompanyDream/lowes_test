@@ -1,5 +1,9 @@
 /**
-  This is where the sub service models come to roost ^_^
+  This is ODM for the json, I wanted to map all the objects
+  in the json because I just like typing ^_^.
+
+  I also don't like to use capitols for file names because unix doesn't use capitols
+  in ext3 and because it makes it so much easier to reference file names.
 **/
 
 import { ContentMapping } from './content_mapping';
@@ -12,7 +16,7 @@ import { MarketingZone } from './marketing_zone';
 import { Link } from './link';
 
 
-export class Payload{
+export class Payload {
   productCount: number;
   breadcrumbs: Breadcrumb[];
   categories: string[];
