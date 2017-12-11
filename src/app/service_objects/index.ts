@@ -16,7 +16,7 @@ import { MarketingZone } from './marketing_zone';
 import { Link } from './link';
 
 
-export class Payload {
+export class Payload  {
   productCount: number;
   breadcrumbs: Breadcrumb[];
   categories: string[];

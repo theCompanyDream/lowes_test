@@ -1,7 +1,11 @@
-<h2>Washing Machines</h2>
-<ul class= "products">
+<h2>
+  <!-- breadcrumbs to directive :D
+  .reduce(bread.name) -->
+</h2>
+<ul class="products">
   <li *ngFor="let product of payload.productList">
     <img src="{{product.imageUrls.md}}" />
+    <h3>{{product.brand + " " + product.description}}</h3>
     <span>{{product.networkPrice}}</span>
     <button>VIEW MORE</button>
   </li>
