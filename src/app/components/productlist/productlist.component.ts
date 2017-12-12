@@ -4,14 +4,15 @@ import { Payload } from '../../service_objects/index';
 import { Product } from '../../service_objects/product';
 import { LowesProductService } from '../../lowes-product.service';
 
+import { ProductDetailComponent } from '../product-detail/product-detail.component';
+
 @Component({
-  selector: 'app-productlist',
+  selector: 'productlist',
   templateUrl: './productlist.component.html',
   styleUrls: ['./productlist.component.css']
 })
 export class ProductlistComponent implements OnInit {
   payload: Payload;
-  showStopper: Product;
 
   constructor(
     private lowesProductService: LowesProductService

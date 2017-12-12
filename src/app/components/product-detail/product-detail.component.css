@@ -1,0 +1,43 @@
+.showstopper {
+  width: 100%;
+  padding: 20px;
+  margin: 0;
+}
+
+.showstopper img{
+  float: left;
+  height: 195px;
+  width: 195px;
+}
+
+.showstopper div{
+  float: right;
+}
+
+.showstopper h3 {
+  color: #333333 100%;
+  font-size: 16px or rem/em equivalent;
+  font-face: Helvetica-Bold;
+}
+
+.showstopper span {
+  color: #333333 100%;
+  opacity: 100%;
+  font-size: 14px or rem/em equivalent;
+  font-face: Helvetica;
+}
+
+.cart h2 {
+  color: #333333;
+  font-size: 22px;
+  font-face: Helvetica-Bold;
+}
+
+.cart button {
+  text-color: #FFFFFFF;
+  font-size: 14px;
+  font-face: Helvetica;
+  margin-top: 10px;
+  height: 44px;
+  background-color: #338700;
+}
