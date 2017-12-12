@@ -1,7 +1,5 @@
-<h2>
-  <!-- breadcrumbs to directive :D
-  .reduce(bread.name) -->
-</h2>
+<product-detail [product]="payload.productList[0]"></product-detail>
+
 <ul class="products">
   <li *ngFor="let product of payload.productList">
     <img src="{{product.imageUrls.md}}" />

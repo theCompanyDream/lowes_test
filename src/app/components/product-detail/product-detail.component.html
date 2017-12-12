@@ -1,3 +1,14 @@
-<p>
-  product-detail works!
-</p>
+<div class="showstopper">
+  <img src="{{product.imageUrls.lg}}"/>
+  <h3>{{product.description}}</h3>
+  <ul>
+    <li *ngFor="let bullet of product.marketingBullets">
+      <span>{{bullet}}</span>
+    </li>
+  </ul>
+
+  <div class="cart">
+    <h2>{{product.networkPrice}}</h2>
+    <button>ADD TO CART</button>
+  </div>
+</div>
