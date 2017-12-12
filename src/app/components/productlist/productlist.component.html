@@ -6,7 +6,7 @@
   <li *ngFor="let product of payload.productList">
     <img src="{{product.imageUrls.md}}" />
     <h3>{{product.brand + " " + product.description}}</h3>
-    <span>{{product.networkPrice}}</span>
+    <label>{{product.networkPrice}}</label>
     <button>VIEW MORE</button>
   </li>
 </ul>
