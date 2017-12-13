@@ -1,22 +1,23 @@
 .showstopper {
+  display: inline;
   width: 100%;
   padding: 20px;
   margin: 0;
+  border: 1px solid #CCCCCC;
 }
 
+.showstopper ul {
+  width: 50%;
+}
 .showstopper img{
   float: left;
   height: 195px;
   width: 195px;
 }
 
-.showstopper div{
-  float: right;
-}
-
 .showstopper h3 {
-  color: #333333 100%;
-  font-size: 16px or rem/em equivalent;
+  color: #333333;
+  font-size: 16px;
   font-face: Helvetica-Bold;
 }
 
@@ -27,17 +28,22 @@
   font-face: Helvetica;
 }
 
-.cart h2 {
+.cart{
+  float: right;
+}
+
+h2.cart {
   color: #333333;
   font-size: 22px;
   font-face: Helvetica-Bold;
 }
 
-.cart button {
+button.cart  {
   text-color: #FFFFFFF;
   font-size: 14px;
   font-face: Helvetica;
   margin-top: 10px;
   height: 44px;
   background-color: #338700;
+  width: 100%;
 }
