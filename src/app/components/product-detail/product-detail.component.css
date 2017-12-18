@@ -1,18 +1,22 @@
 .showstopper {
-  display: inline;
   width: 100%;
-  padding: 20px;
-  margin: 0;
+  height: auto;
+  overflow: hidden;
+  margin: auto;
   border: 1px solid #CCCCCC;
+  padding: 20px;
 }
 
-.showstopper ul {
-  width: 50%;
-}
-.showstopper img{
+.showstopper img {
   float: left;
   height: 195px;
   width: 195px;
+  margin: auto;
+}
+
+.showstopper ul {
+  float: left;
+  width: 600px;
 }
 
 .showstopper h3 {
@@ -22,24 +26,26 @@
 }
 
 .showstopper span {
-  color: #333333 100%;
+  color: #333333;
   opacity: 100%;
-  font-size: 14px or rem/em equivalent;
+  font-size: 14px;
   font-face: Helvetica;
 }
 
-.cart{
+.cart {
   float: right;
+  width: 300px;
 }
 
-h2.cart {
+.cart h2 {
   color: #333333;
   font-size: 22px;
   font-face: Helvetica-Bold;
 }
 
-button.cart  {
-  text-color: #FFFFFFF;
+.cart button  {
+  display: block;
+  color: #FFFFFF;
   font-size: 14px;
   font-face: Helvetica;
   margin-top: 10px;

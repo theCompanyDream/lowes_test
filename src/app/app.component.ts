@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { Observable } from 'rxjs/Observable';
 
 import { LowesProductService } from './lowes-product.service';
 import { Payload } from './service_objects/index';
@@ -10,7 +9,6 @@ import { Payload } from './service_objects/index';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit{
-  title = 'app';
   payload: Payload;
 
   constructor(

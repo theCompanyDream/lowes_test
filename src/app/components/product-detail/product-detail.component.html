@@ -1,14 +1,16 @@
-<div class="showstopper">
+<section class="showstopper">
   <img src="{{product.imageUrls.lg}}"/>
-  <h3>{{product.description}}</h3>
+
   <ul>
+    <h3>{{product.description}}</h3>
     <li *ngFor="let bullet of product.marketingBullets">
       <span>{{bullet}}</span>
     </li>
   </ul>
-  <section>
-    <h2 class="cart">{{product.networkPrice}}</h2>
-    <button class="cart" (click)="success()">ADD TO CART</button>
+
+  <section class="cart">
+    <h2>{{product.networkPrice}}</h2>
+    <button (click)="success()">ADD TO CART</button>
   </section>
 
-</div>
+</section>
