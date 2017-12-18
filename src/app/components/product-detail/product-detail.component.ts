@@ -1,6 +1,7 @@
 import { Component, OnInit, Input } from '@angular/core';
 
 import { Product } from '../../service_objects/product';
+import { AlertService } from '../../alert.service';
 
 @Component({
   selector: 'product-detail',
@@ -10,9 +11,13 @@ import { Product } from '../../service_objects/product';
 export class ProductDetailComponent implements OnInit {
   @Input() product: Product;
 
-  constructor() { }
+  constructor(private alerts: AlertService) { }
 
   ngOnInit() {
+  }
+
+  success() {
+    this.alerts.info("$"+this.product.networkPrice);
   }
 
 }

@@ -1,10 +1,12 @@
-<product-detail [product]="payload.productList[0]"></product-detail>
+<section *ngIf="payload">
+  <product-detail [product]="payload.productList[0]"></product-detail>
 
-<ul class="products">
-  <li *ngFor="let product of payload.productList">
-    <img src="{{product.imageUrls.md}}" />
-    <h3>{{product.brand + " " + product.description}}</h3>
-    <label>{{product.networkPrice}}</label>
-    <button>VIEW MORE</button>
-  </li>
-</ul>
+  <ul class="products">
+    <li *ngFor="let product of payload.productList">
+      <img src="{{product.imageUrls.md}}" />
+      <h3>{{product.brand + " " + product.description}}</h3>
+      <label>{{product.networkPrice}}</label>
+      <button>VIEW MORE</button>
+    </li>
+  </ul>
+</section>
