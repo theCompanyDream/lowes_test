@@ -11,12 +11,11 @@
   float: left;
   height: 195px;
   width: 195px;
-  margin: auto;
 }
 
 .showstopper ul {
   float: left;
-  width: 600px;
+  width: 700px;
 }
 
 .showstopper h3 {
@@ -39,6 +38,7 @@
 
 .cart h2 {
   color: #333333;
+  float: right;
   font-size: 22px;
   font-face: Helvetica-Bold;
 }
@@ -52,4 +52,21 @@
   height: 44px;
   background-color: #338700;
   width: 100%;
+}
+
+@media(max-width: 400){
+  .showstopper{
+    display: block;
+  }
+  .showstopper img{
+      margin: auto;
+  }
+
+  .showstopper ul, .cart {
+    width: 100%;
+  }
+
+  .cart {
+    float: left;
+  }
 }

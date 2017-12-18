@@ -13,6 +13,7 @@ import { ProductDetailComponent } from '../product-detail/product-detail.compone
 })
 export class ProductlistComponent implements OnInit {
   payload: Payload;
+  showstopper: Product;
 
   constructor(
     private lowesProductService: LowesProductService
@@ -20,15 +21,19 @@ export class ProductlistComponent implements OnInit {
 
   ngOnInit(): void {
     this.getPayload();
+
   }
 
   getPayload(): void {
     this.lowesProductService.get_lowes_payload()
-      .subscribe(payload => this.payload = payload);
+      .subscribe(payload => {
+        this.payload = payload
+        this.viewMore(this.payload.productList[0]);
+      });
   }
 
-  gotoDetail(p: Product): void{
-
+  viewMore(p: Product): void{
+    this.showstopper = p;
   }
 
 }
