@@ -8,7 +8,7 @@ I'd like to add that the only reason I'm using Typescript is because the angular
 
 ## Development server
 First install this addon for either [Google Chrome](https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi), [Mozilla Firefox](https://addons.mozilla.org/en-US/firefox/addon/cors-everywhere/). Then
-run `npm init`, then run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files. 
+run `npm init`, then run `ng serve` for a dev server. Navigate to `http://localhost:8080/`. The app will automatically reload if you change any of the source files. 
 
 
 
